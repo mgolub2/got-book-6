@@ -20,7 +20,9 @@ Ned is still alive and Jon is a Lannister!
 Varys poisons Daenerys and a dead man.
 > Varys poisoned Daenerys and another of the dead men. As he woke, it was a peaceful song, and now the low and the dawn was breaking up and there no smaller, robar the broken bones.
 
-John rides a dragon and starts to get a little preverted...
+
+Jon rides a dragon and starts to get a little perverted...
+
 > Jon rode the dragons in a steep circle, buried fingers in the sand and there a burnt slope. “With a man should leave us clean, wench,” he said. “Stop him. Is that much? Until you’re at Winterfell simply get inside ’em o’ wildlings, or on the sound of a bastard dies.”
 
 Lord Friendzone is off eating stew with chunks of butter...
@@ -35,8 +37,40 @@ They decide to let the dogs make decisions...
 It ends on a weird note during a winter storm with Jon's Targaryen side coming out in full color... 
 > Once, she thought, it was wrong, climbing through the cloudless terrible light noise that was no last snow. Jon did not need to share a cup or part of it, but maybe this, a fat little blind girl.
 
+
+# Posted Elsewhere
+
+- [Hacker News](https://news.ycombinator.com/submitted?id=zthoutt)
+- [ASOIAF subreddit](https://www.reddit.com/r/asoiaf/comments/6vhqyr/spoilers_extended_somebody_is_training_a_neural/)
+- [Vice Interview](https://motherboard.vice.com/en_us/article/evvq3n/game-of-thrones-winds-of-winter-neural-network)
+- [Motherboard Article](https://motherboard.vice.com/en_us/article/bjjp4a/winds-of-winter-neural-network)
+- [Udacity Blog](http://blog.udacity.com/2017/08/neural-network-game-of-thrones.html)
+- [New York Post](http://nypost.com/2017/08/29/artificial-intelligence-is-writing-the-next-game-of-thrones-book/)
+- [Observer](http://observer.com/2017/08/game-of-thrones-next-book-artificial-intelligence/)
+- [I Fucking Love Science](http://www.iflscience.com/technology/artificial-intelligence-is-attempting-to-write-the-next-game-of-thrones-book/)
+- [Futurism](https://futurism.com/the-next-five-game-of-thrones-chapters-have-been-leaked-by-an-ai/)
+- [Science Alert](https://www.sciencealert.com/everyone-s-so-sick-of-waiting-for-the-next-game-of-thrones-book-an-ai-just-wrote-it-for-us)
+- [Pedestrian](https://www.pedestrian.tv/tech/game-of-thrones-written-by-neural-network/)
+- [Gizmodo](http://io9.gizmodo.com/rest-easy-george-r-r-martin-a-computer-program-has-w-1798541924)
+- [YouTube Dramatic Reading](https://www.youtube.com/watch?v=DC7s0YsDeBo)
+- [IBTimes](http://www.ibtimes.co.uk/this-ai-just-wrote-first-five-chapters-george-rr-martins-next-book-1637086)
+- [AV Club](http://www.avclub.com/if-george-r-r-martin-wont-write-winds-of-winter-this-1798538382)
+- [eTeknix](https://www.eteknix.com/neural-network-writes-new-game-thrones-novel/)
+- [Daily Dot](https://www.dailydot.com/parsec/neural-network-winds-of-winter/)
+- [Office Chai](https://officechai.com/news/tired-waiting-next-game-thrones-book-engineer-builds-neural-network-write/)
+
+# Training the Model
+
+If you would like to train this model, you will need to use a GPU and Tensorflow 1.0. I used FloydHub with the following command:
+```
+floyd run <your-project-id> --gpu --env tensorflow-1.0 --mode jupyter
+```
+
+The text data can be found many places online.
+
 # Contributing
 
 There are still so many unanswered questions. Is Jon actually a Lannister-Targaryen? How will the dogs rule the seven kingdoms? Why did Varys poison Daenerys? Who are the seconds sons of the onion concubine? 
 
-If you would like to help sing the song of fire and ice, feel free to use this repository, put up pull requests, and offer advice on how to improve the model. I'm still fairly new to neural networks, so any help would be greatly appreciated.
+If you would like to help sing the song of fire and ice, feel free to use this repository and offer advice on how to improve the model. I'm still fairly new to neural networks, so any help would be greatly appreciated. I will consider merging pull requests if they make significant changes and improvements to the model.
+>>>>>>> upstream/master
